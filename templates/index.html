@@ -12,7 +12,7 @@
     
 	<div class="container">
 		<div class="row">
-		  <div class="col-2"><img class="logo" src="/static/image/logo.png"></div>
+		  <div class="col-2"><img class="logo" src="/static/image/logo2.png"></div>
 		  <div class="col-10 ">
 				<div class="row align-items-end">
 					<a class="col-2 text-center align-text-bottom" href="/profile">Profile</a>
@@ -24,6 +24,9 @@
 				</div>
 			</div>
 		</div>
+	{% for _ in range(num) %}
+		<h1>Hello, {{content}}</h1>
+	{% endfor %}
 
 	  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
