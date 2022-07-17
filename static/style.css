@@ -1,7 +1,8 @@
 h1 {
- color:rgb(0, 89, 255);
+ color:rgb(67, 24, 120);
 }
 .logo{
-    width: 200px; 
-    height: 92px;
+    width:60px; 
+    height: 48px;
+    margin:-10px 0px;
 }
